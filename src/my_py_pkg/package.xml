@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>my_py_pkg</name>
+  <version>0.0.0</version>
+  <description>我的第一个ROS2 Python包</description>
+  <maintainer email="2817635381@qq.com">hwj</maintainer>
+  <license>TODO: License declaration</license>
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+<!-- 你的节点实际使用到时才添加 -->
+ <!-- ROS2核心库 -->
+<exec_depend>rclcpp</exec_depend>      <!-- C++客户库 -->
+<exec_depend>rclpy</exec_depend>       <!-- Python客户库 -->
+
+<!-- 消息类型 -->
+<exec_depend>std_msgs</exec_depend>    <!-- 标准消息 -->
+<exec_depend>sensor_msgs</exec_depend> <!-- 传感器消息 -->
+<exec_depend>geometry_msgs</exec_depend> <!-- 几何消息 -->
+
+<!-- 常用库 -->
+<exec_depend>tf2</exec_depend>         <!-- 坐标变换 -->
+<exec_depend>cv_bridge</exec_depend>   <!-- ROS-OpenCV桥接 -->
+
+  <export>
+  
+  <build_type>ament_python</build_type>
+</export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

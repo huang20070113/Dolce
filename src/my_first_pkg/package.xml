@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>my_first_pkg</name>
+  <version>0.0.0</version>
+  <description>TODO: Package description</description>
+  <maintainer email="2817635381@qq.com">hwj</maintainer>
+  <license>TODO: License declaration</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+  <!-- 编译时依赖 -->
+  <build_depend>rclcpp</build_depend>
+  <build_depend>std_msgs</build_depend>
+
+  <!-- 运行时依赖 -->
+  <exec_depend>rclcpp</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <!-- 测试依赖 -->
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_cmake_gtest</test_depend>
+
+<!-- ROS2核心库 -->
+<exec_depend>rclcpp</exec_depend>      <!-- C++客户库 -->
+<exec_depend>rclpy</exec_depend>       <!-- Python客户库 -->
+
+<!-- 消息类型 -->
+<exec_depend>std_msgs</exec_depend>    <!-- 标准消息 -->
+<exec_depend>sensor_msgs</exec_depend> <!-- 传感器消息 -->
+<exec_depend>geometry_msgs</exec_depend> <!-- 几何消息 -->
+
+<!-- 常用库 -->
+<exec_depend>tf2</exec_depend>         <!-- 坐标变换 -->
+<exec_depend>cv_bridge</exec_depend>   <!-- ROS-OpenCV桥接 -->
+
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
