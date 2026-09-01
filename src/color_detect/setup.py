@@ -20,6 +20,7 @@ setup(
         'console_scripts': [
             'camera_node = color_detect.camera_node:main',
             'color_detector_node = color_detect.color_detector_node:main',
+            'lab_detector_node = color_detect.lab_detector_node:main',
         ],
     },
 )

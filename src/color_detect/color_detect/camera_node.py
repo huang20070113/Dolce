@@ -10,7 +10,7 @@ class CameraNode(Node):
         self.publisher = self.create_publisher(Image, '/camera/image_raw', 10)
         self.bridge = CvBridge()
         self.cap = cv2.VideoCapture(0)
-        self.timer = self.create_timer(0.03, self.publish_frame)
+        self.timer = self.create_timer(0.1, self.publish_frame)
 
     def publish_frame(self):
         ok, frame = self.cap.read()
