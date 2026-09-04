@@ -1,0 +1,3 @@
+/home/hwj/ros2_ws/src/sensor_sync_student/build/CMakeFiles/sensor_sync.dir
+/home/hwj/ros2_ws/src/sensor_sync_student/build/CMakeFiles/edit_cache.dir
+/home/hwj/ros2_ws/src/sensor_sync_student/build/CMakeFiles/rebuild_cache.dir
