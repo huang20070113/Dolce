@@ -1,0 +1,29 @@
+/stl_to_grid_map:
+  ros__parameters:
+    frame_id: map
+    ground_tolerance: 0.03
+    input_file: /home/user/ROS2/slam_hw1/data/RMUC2025.STL
+    max_abs_normal_z: 1.0
+    max_slope_degrees: 25.0
+    max_step_height: 0.06
+    max_support_z: 0.65
+    output_prefix: /home/user/ROS2/slam_hw1/output/RMUC2025
+    padding: 0.5
+    qos_overrides:
+      /parameter_events:
+        publisher:
+          depth: 1000
+          durability: volatile
+          history: keep_last
+          reliability: reliable
+    require_ground: true
+    resolution: 0.025
+    robot_height: 0.6
+    robot_radius: 0.3
+    scale: 0.001
+    slice_max_z: 0.6
+    slice_min_z: 0.05
+    start_type_description_service: true
+    terrain_mode: true
+    use_sim_time: false
+

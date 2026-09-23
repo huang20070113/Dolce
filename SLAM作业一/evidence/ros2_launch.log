@@ -1,0 +1,4 @@
+[INFO] [launch]: All log files can be found below /home/user/ROS2/slam_hw1/logs/ros/2026-09-23-22-56-36-989901-user-5158
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [stl_to_grid_node-1]: process started with pid [5176]
+[stl_to_grid_node-1] [INFO] [1790175398.341901126] [stl_to_grid_map]: Generated 680x1460 map: 726628/7789458 triangles selected, 600196 cells occupied after inflation

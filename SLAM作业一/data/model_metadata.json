@@ -1,0 +1,20 @@
+{
+  "source_name": "RMUC2025.stp",
+  "source_sha256": "a3c385e6918f3dbc290dc14d1f90be19adce4a988ff3f8fb2d4a3ddec07fc48a",
+  "triangles": 7789458,
+  "raw_min_mm": [
+    -8000.0,
+    -557.0,
+    -17730.0
+  ],
+  "raw_max_mm": [
+    8000.0,
+    3654.094727229984,
+    17748.000000000004
+  ],
+  "linear_deflection_mm": 2.0,
+  "angular_deflection_rad": 0.3,
+  "transform": "x=X, y=-Z, z=Y; units millimetres; ground z=0",
+  "stl_sha256": "d6c9da11f09604db0c2bbe8e368b7f6176de36b1039edac401aee69264f14f31",
+  "stl_bytes": 389472984
+}

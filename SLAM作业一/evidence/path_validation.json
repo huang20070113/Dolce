@@ -1,0 +1,89 @@
+{
+  "checked_at_utc": "2026-09-23T14:48:00.624010+00:00",
+  "status": "PASS",
+  "resolution": 0.025,
+  "width": 680,
+  "height": 1460,
+  "robot_radius_m": 0.3,
+  "raw_robot_radius_m": 0,
+  "free_cells": 392604,
+  "occupied_cells": 600196,
+  "tests": [
+    {
+      "name": "cross_field",
+      "status": "PASS",
+      "start_pgm": [
+        480,
+        1220
+      ],
+      "goal_pgm": [
+        200,
+        240
+      ],
+      "start_world_m": [
+        3.512500000000001,
+        -12.2625
+      ],
+      "goal_world_m": [
+        -3.4875,
+        12.2375
+      ],
+      "path_cells": 1642,
+      "length_m": 45.84023266258723,
+      "min_obstacle_center_distance_m": 0.304138126514911,
+      "no_corner_cutting": true,
+      "all_path_cells_free": true
+    },
+    {
+      "name": "upper_crossing",
+      "status": "PASS",
+      "start_pgm": [
+        136,
+        365
+      ],
+      "goal_pgm": [
+        544,
+        365
+      ],
+      "start_world_m": [
+        -5.0875,
+        9.1125
+      ],
+      "goal_world_m": [
+        5.112500000000001,
+        9.1125
+      ],
+      "path_cells": 488,
+      "length_m": 13.572970773009198,
+      "min_obstacle_center_distance_m": 0.304138126514911,
+      "no_corner_cutting": true,
+      "all_path_cells_free": true
+    },
+    {
+      "name": "lower_crossing",
+      "status": "PASS",
+      "start_pgm": [
+        136,
+        1095
+      ],
+      "goal_pgm": [
+        544,
+        1095
+      ],
+      "start_world_m": [
+        -5.0875,
+        -9.1375
+      ],
+      "goal_world_m": [
+        5.112500000000001,
+        -9.1375
+      ],
+      "path_cells": 488,
+      "length_m": 13.572970773009201,
+      "min_obstacle_center_distance_m": 0.304138126514911,
+      "no_corner_cutting": true,
+      "all_path_cells_free": true
+    }
+  ],
+  "scope": "Discrete geometric path feasibility; not real-robot motion or navigation validation."
+}

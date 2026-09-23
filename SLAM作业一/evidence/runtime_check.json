@@ -1,0 +1,25 @@
+{
+  "checked_at_utc": "2026-09-23T14:56:40.376212+00:00",
+  "status": "PASS",
+  "frame": "map",
+  "width": 680,
+  "height": 1460,
+  "resolution": 0.02500000037252903,
+  "origin": [
+    -8.5,
+    -18.25,
+    0.0
+  ],
+  "received_messages": 2,
+  "message_interval_seconds": 1.0000085830688477,
+  "publishers": [
+    "stl_to_grid_map"
+  ],
+  "subscribers": [
+    "slam_hw1_runtime_check",
+    "rviz"
+  ],
+  "occupied_cells": 600196,
+  "free_cells": 392604,
+  "live_cells_equal_pgm": true
+}

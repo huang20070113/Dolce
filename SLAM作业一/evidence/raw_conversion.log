@@ -1,0 +1,2 @@
+[INFO] [1790174879.748505393] [stl_to_grid_map]: Generated 680x1460 map: 726628/7789458 triangles selected, 453631 cells occupied after inflation
+[INFO] [1790174879.929802658] [rclcpp]: signal_handler(SIGINT/SIGTERM)

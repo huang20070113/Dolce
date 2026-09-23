@@ -1,0 +1,36 @@
+Starting >>> stl_to_grid_map
+Finished <<< stl_to_grid_map [4.02s]
+
+Summary: 1 package finished [4.14s]
+Starting >>> stl_to_grid_map
+UpdateCTestConfiguration  from :/home/user/ROS2/slam_hw1/ros2_ws/build/stl_to_grid_map/CTestConfiguration.ini
+Parse Config file:/home/user/ROS2/slam_hw1/ros2_ws/build/stl_to_grid_map/CTestConfiguration.ini
+   Site: user
+   Build name: Linux-c++
+ Add coverage exclude regular expressions.
+Create new tag: 20260923-1444 - Experimental
+UpdateCTestConfiguration  from :/home/user/ROS2/slam_hw1/ros2_ws/build/stl_to_grid_map/CTestConfiguration.ini
+Parse Config file:/home/user/ROS2/slam_hw1/ros2_ws/build/stl_to_grid_map/CTestConfiguration.ini
+Test project /home/user/ROS2/slam_hw1/ros2_ws/build/stl_to_grid_map
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+    Start 1: stl_grid_core_tests
+
+1: Test command: /home/user/ROS2/slam_hw1/ros2_ws/build/stl_to_grid_map/stl_grid_core_tests
+1: Working Directory: /home/user/ROS2/slam_hw1/ros2_ws/build/stl_to_grid_map
+1: Test timeout computed to be: 1500
+1: [PASS] STL parsing, filtering, inflation, and map output
+1/1 Test #1: stl_grid_core_tests ..............   Passed    0.01 sec
+
+100% tests passed, 0 tests failed out of 1
+
+Total Test time (real) =   0.01 sec
+Finished <<< stl_to_grid_map [0.06s]
+
+Summary: 1 package finished [0.18s]
+Summary: 1 test, 0 errors, 0 failures, 0 skipped

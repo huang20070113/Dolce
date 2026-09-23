@@ -1,0 +1,19 @@
+stl_to_grid_map:
+  ros__parameters:
+    input_file: "assets/RMUC2025.STL"
+    output_prefix: "output/RMUC2025"
+    frame_id: "map"
+    resolution: 0.025
+    robot_radius: 0.30
+    slice_min_z: 0.05
+    slice_max_z: 0.60
+    scale: 0.001
+    padding: 0.50
+    max_abs_normal_z: 1.0
+    require_ground: true
+    ground_tolerance: 0.03
+    terrain_mode: true
+    max_support_z: 0.65
+    max_slope_degrees: 25.0
+    max_step_height: 0.06
+    robot_height: 0.60
