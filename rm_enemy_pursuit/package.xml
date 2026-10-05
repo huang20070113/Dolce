@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>rm_enemy_pursuit</name><version>0.1.0</version>
+  <description>Simulated omnidirectional target detection and priority Nav2 pursuit.</description>
+  <maintainer email="2817635381@qq.com">huang20070113</maintainer>
+  <license>MIT</license>
+  <buildtool_depend>ament_python</buildtool_depend>
+  <exec_depend>rclpy</exec_depend><exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>nav2_msgs</exec_depend><exec_depend>action_msgs</exec_depend>
+  <exec_depend>std_msgs</exec_depend><exec_depend>std_srvs</exec_depend>
+  <exec_depend>visualization_msgs</exec_depend><exec_depend>tf2_ros_py</exec_depend>
+  <exec_depend>launch</exec_depend><exec_depend>launch_ros</exec_depend>
+  <exec_depend>ament_index_python</exec_depend><exec_depend>rviz2</exec_depend>
+  <exec_depend>rm_nav_bringup</exec_depend>
+  <test_depend>python3-pytest</test_depend>
+  <export><build_type>ament_python</build_type></export>
+</package>

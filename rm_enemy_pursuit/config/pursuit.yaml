@@ -1,0 +1,12 @@
+pursuit_manager:
+  ros__parameters:
+    global_frame: map
+    robot_frame: base_link
+    detection_timeout: 2.0
+    stop_distance: 1.0
+    release_margin: 0.3
+    goal_update_distance: 0.5
+    goal_update_period: 1.0
+    max_pursuit_duration: 30.0
+    tf_timeout: 0.8
+    action_name: navigate_to_pose
